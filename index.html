@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Poster</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f6f6f6;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 28px;
+            margin-top: 30px;
+        }
+
+        /* PDF display */
+        .pdf-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pdf-frame {
+            width: 80%;
+            height: 900px;
+            border: none;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        .download a {
+            font-size: 20px;
+            color: #0044cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download a:hover {
+            text-decoration: underline;
+        }
+
+        /* Developer list */
+        .dev-list {
+            margin-top: 40px;
+            font-size: 20px;
+            line-height: 1.8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="section-title">Project Poster</h2>
+
+    <!-- PDF Embed -->
+    <div class="pdf-container">
+        <iframe src="files/Poster.pdf" class="pdf-frame"></iframe>
+    </div>
+
+    <!-- Download Link -->
+    <p class="download">
+        <a href="files/Poster.pdf" target="_blank">Download Full Poster (PDF)</a>
+    </p>
+
+    <!-- Developer Section -->
+    <h2 class="section-title">Developers</h2>
+
+    <div class="dev-list">
+        <p>Developer 1 Name</p>
+        <p>Developer 2 Name</p>
+        <p>Developer 3 Name</p>
+    </div>
+
+</body>
+</html>
