@@ -1,0 +1,4 @@
+/IPython/*.zip
+/IPython/__pycache__/
+/IPython/*.pyc
+/IPython/imagenet-mini/
