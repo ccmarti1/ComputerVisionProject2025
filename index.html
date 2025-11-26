@@ -140,6 +140,31 @@
             font-size: 40px;
             margin-bottom: 10px;
         }
+        .video-section {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 80%;
+        max-width: 850px;
+        margin: 0 auto;
+        padding-bottom: 45%;
+        height: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
 
     </style>
 </head>
@@ -147,7 +172,7 @@
 <body>
 
     <!-- Title -->
-    <h2 class="section-title">Adversarial Patch Generation</h2>
+    <h2 class="section-title">Project Poster</h2>
 
         <!-- Google Slides Poster Embed -->
     <div class="poster-container" style="margin-top: 60px;">
@@ -170,6 +195,16 @@
             allowfullscreen>
         </iframe>
     </div>
+
+        <!-- Demo Video Section -->
+    <div class="video-section">
+        <h2 class="section-title">Project Demo Video</h2>
+
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KBIKZe5DrD8?si=tGENB6_4XETkV2yW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
 
 <!-- Resources Section -->
 <div class="resources-section">
@@ -254,9 +289,50 @@
                 <div class="dev-name">Zander</div>
             </div>
 
+
+
         </div>
 
     </div>
 
+                <!-- References Section -->
+        <div class="references-section">
+        <h2 class="section-title">References</h2>
+        <div class="references-list">
+
+            <p>
+            Brown, T. B., Mané, D., Roy, A., Abadi, M., & Gilmer, J. (2017). 
+            <a href="https://arxiv.org/abs/1712.09665?utm_source=chatgpt.com" target="_blank">
+                Adversarial Patch.
+            </a> arXiv preprint arXiv:1712.09665.
+            </p>
+
+            <p>
+            Wang, Z., Ma, X., & Jiang, Y. G. (2025). 
+            <a href="https://arxiv.org/html/2412.01440v5?utm_source=chatgpt.com" target="_blank">
+                BadPatch: Diffusion-Based Generation of Physical Adversarial Patches.
+            </a>
+            </p>
+
+            <p>
+            Huang, Y., Ren, Y., Wang, J., Huo, L., Bai, X., Zhang, J., & Yu, H. (2025). 
+            <a href="https://arxiv.org/abs/2505.16402?utm_source=chatgpt.com" target="_blank">
+                AdvReal: Adversarial Patch Generation Framework with Application to Adversarial Safety Evaluation of Object Detection Systems.
+            </a> arXiv preprint arXiv:2505.16402.
+            </p>
+
+            <p>
+            Thys, S., Van Ranst, W., & Goedemé, T. (2019). 
+            <a href="https://arxiv.org/abs/1904.08653?utm_source=chatgpt.com" target="_blank">
+                Fooling automated surveillance cameras: adversarial patches to attack person detection.
+            </a> In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW 2019).
+            </p>
+
+        </div>
+        </div>
+
+
+
 </body>
 </html>
+
